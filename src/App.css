@@ -1,0 +1,126 @@
+body {
+  background-color: #1a1a1a; /* Dark background for a futuristic feel */
+  color: #fff; /* White text for contrast */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Grid container */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 300px); /* 2 columns, each 300px wide */
+  grid-template-rows: repeat(2, 300px); /* 2 rows, each 300px high */
+  gap: 20px; /* Space between grid items */
+  justify-content: center; /* Center grid horizontally */
+  align-content: center; /* Center grid vertically */
+  padding: 20px; /* Padding around the grid */
+  margin: 0 auto; /* Centering the grid in the page */
+  max-width: 660px; /* Max width considering grid and gaps */
+}
+
+/* Individual component styles */
+.grid-item {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 10px;
+  overflow: auto; /* Scrollable if content overflows */
+}
+
+/* Styles for headers */
+h1, h2 {
+  text-align: center;
+  font-weight: 300;
+  color: #4df9ff; /* Bright blue for a techy feel */
+}
+
+/* Form styles */
+form {
+  margin-bottom: 30px;
+}
+
+/* Input styles */
+input[type="text"], input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #555;
+  background-color: #222;
+  color: white;
+}
+
+/* Label styles */
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+/* Button styles */
+button {
+  background-color: #4df9ff; /* Bright blue */
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #3ac6d8;
+  color: white;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Canvas styles */
+canvas {
+  max-width: 100%;
+  background-color: #222;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* Stock item styles */
+.stock-item {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stock-ticker {
+  color: #4df9ff; /* Bright blue for a techy feel */
+  font-weight: bold;
+}
+
+.stock-price {
+  color: #fff;
+  font-size: 1.2em;
+}
+/* App.css */
+.banner {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-content {
+  padding: 20px;
+}
